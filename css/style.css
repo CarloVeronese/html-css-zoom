@@ -13,6 +13,10 @@ html{
     margin: 0 auto;
 }
 
+ul{
+    list-style: none;
+}
+
 #app{
     height: 100vh;
     display: flex;
@@ -28,6 +32,10 @@ html{
     display: flex;
     flex-direction: row-reverse;
     padding: 5px 40px 50px 0;
+}
+
+.full-screen{
+    padding-top: 50px;
 }
 
 .speaker-view{
@@ -76,6 +84,19 @@ html{
     bottom: 10px;
     line-height: 25px;
     padding: 0 5px;
+}
+
+.app__toolbar{
+    background-color: #222222;
+}
+
+.tools-menu{
+    display: flex;
+}
+
+.tool-description{
+    color: white;
+    font-size: small;
 }
 
 .debug .app__toolbar{
