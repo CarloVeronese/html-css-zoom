@@ -24,9 +24,31 @@ html{
     flex-grow: 1;
 }
 
+.top-tools{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5px 40px 50px 0;
+}
+
+.speaker-view{
+    color: white;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.button{
+    background-color: #4A4A4A;
+    line-height: 3px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .main-content{
     background-color: black;
     position: relative;
+    overflow: auto;
+    max-height: 100%;
 }
 
 .app-content{
@@ -36,7 +58,6 @@ html{
 }
 
 .screen{
-    flex-basis: calc((100% - (4px * 6))/ 7);
     padding-bottom: 10px;
     position: relative;
 }
@@ -60,5 +81,6 @@ html{
 .debug .app__toolbar{
     background-color: tomato;
     min-height: 100px;
+    /* position: fixed; */
 }
 
