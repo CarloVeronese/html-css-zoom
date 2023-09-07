@@ -94,9 +94,43 @@ ul{
     display: flex;
 }
 
+.tool{
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.tool-left{
+    text-align: start;
+    padding-left: 10px;
+}
+
+.stop-video{
+    padding-left: 7px;
+}
+
+.more-description{
+    padding-left: 8px;
+}
+
+.tool-icon{
+    cursor: pointer;
+}
+
 .tool-description{
     color: white;
     font-size: small;
+}
+
+.end-meeting{
+    height: 100%;
+    align-self: center;
+    text-align: end;
+    padding-right: 10px;
+}
+
+.end-meeting .tool-description{
+    color: red;
+    font-weight: bold;
 }
 
 .debug .app__toolbar{
