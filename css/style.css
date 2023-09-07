@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#app{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.participant-screen{
+    width: calc(100% / 7);
+}
+
+.app__content{
+    flex-grow: 1;
+}
+
+.debug .app__toolbar{
+    background-color: tomato;
+    min-height: 100px;
+}
